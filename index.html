@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color:black;
+            padding: 10px;
+            width: 100%;
+            color:aquamarine;
+            text-align: center;
+            position: fixed;
+            top: 0;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 60px);
+        }
+        .sidebar {
+            flex: 1;
+            background-color:darkblue;
+            color: darkblue;
+        }
+        footer {
+            background-color:black;
+            padding: 10px;
+            color: aquamarine;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GALLEXY CAR SHOWROOM</h1>
+    </header>
+    <main class="main-content">
+        <div class="sidebar"></div>
+        <div>
+            <img src="supra.jpg" alt="" width="1000" height="700">
+        </div>
+        <div class="sidebar"></div>
+    </main>
+    <footer>muhammad arbaz malik</footer>
+</body>
+</html>
